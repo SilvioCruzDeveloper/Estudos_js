@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: black; /* Fundo preto */
+  color: #00cc00; /* Letras em verde */
+}
+
+.clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  max-width: 800px; /* Defina um valor máximo para o container */
+  margin: 0 auto; /* Centraliza o container */
+}
+
+.clock {
+  width: 200px; /* Largura do relógio */
+  height: 200px; /* Altura do relógio */
+  border: 2px solid #00cc00; /* Borda verde */
+  border-radius: 50%; /* Transforma em círculo */
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #222; /* Fundo escuro para os relógios */
+}
+
+.city {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.time {
+  font-size: 36px; /* Tamanho maior para a hora */
+}
+
+.date {
+  font-size: 18px; /* Tamanho menor para a data */
+}
